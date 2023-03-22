@@ -1,0 +1,23 @@
+{
+  "name": "stylelint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "stylelint": "stylelint ./assets/css",
+    "stylelint:fix": "stylelint ./assets/css --fix"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.8.6",
+    "stylelint": "^15.3.0",
+    "stylelint-config-prettier-scss": "^0.0.1",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^31.0.0",
+    "stylelint-order": "^6.0.3",
+    "stylelint-prettier": "^3.0.0",
+    "stylelint-scss": "^4.5.0"
+  }
+}

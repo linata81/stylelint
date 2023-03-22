@@ -1,0 +1,32 @@
+body {
+  position: absolute;
+  top: 0;
+}
+
+h1 {
+  color: #3700ff;
+}
+
+.slider__button {
+  width: 100%;
+}
+
+.header {
+  box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #f00;
+}
+
+.header__left {
+  border: 1px solid;
+}
+
+.header p {
+  font-size: 25px;
+}
+
+.footer {
+  display: -webkit-box;
+  display: flexbox;
+  display: flex;
+} /*# sourceMappingURL=style.css.map */

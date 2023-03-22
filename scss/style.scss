@@ -1,0 +1,29 @@
+body {
+  position: absolute;
+  top: 0;
+}
+
+h1 {
+  color: #3700ff;
+}
+
+.slider__button {
+  width: 100%;
+}
+
+.header {
+  box-sizing: border-box;
+  background-color: #f00;
+
+  &__left {
+    border: 1px solid;
+  }
+
+  p {
+    font-size: 25px;
+  }
+}
+
+.footer {
+  display: flex;
+}

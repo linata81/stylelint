@@ -1,0 +1,16 @@
+{
+  "extends": ["stylelint-config-standard",
+              "stylelint-config-rational-order",
+              "stylelint-prettier/recommended"],
+  "plugins": ["stylelint-order", "stylelint-scss"],
+  "rules": {
+    "selector-class-pattern": [
+      "^([a-z]+)+(__([a-z]+)+)?(--[a-z]+([a-z]+)*){0,2}$",
+      {
+        "message": "Selector class pattern does not match project conventions",
+        "resolveNestedSelectors": true
+      }
+    ]
+  }
+
+}
