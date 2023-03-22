@@ -48,8 +48,6 @@ stylelint-config-rational-order — Конфигурация Stylelint, кото
 }
 ```
 
-Команда npm run stylelint запустит линтер и выведет в консоль список ошибок, а npm run stylelint:fix дополнительно исправит ошибки, доступные для автоисправления.
-
 ## в VScode подключаем плагин live sass compiler
 
 заводим структуру папок для верстки :
@@ -73,7 +71,6 @@ images/
     }
   ],
   "liveSassCompile.settings.autoprefix": ["> 1%", "last 10 versions"],
-  // "liveSassCompile.settings.showOutputWindow": true,
   "liveServer.settings.AdvanceCustomBrowserCmdLine": ""
 ```
 
