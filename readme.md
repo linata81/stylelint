@@ -56,18 +56,17 @@ images/
 Внизу VSCode настройки -> в поравом верхнем углу (2строка) open setting json и вниз файла добавляем запись
 
 ```json
-    //liveSassCompile выходной css
-    "liveSassCompile.settings.generateMap": false,
-    "liveSassCompile.settings.formats": [
-      {
-        "format": "expanded",
-        "extensionName": ".css",
-        "savePath": "~/../assets/css/"
-      }
-    ],
-    "liveSassCompile.settings.autoprefix": ["> 1%", "last 10 versions"],
-    // "liveSassCompile.settings.showOutputWindow": true,
-    "liveServer.settings.AdvanceCustomBrowserCmdLine": ""
+"liveSassCompile.settings.generateMap": false,
+"liveSassCompile.settings.formats": [
+  {
+   "format": "expanded",
+    "extensionName": ".css",
+     "savePath": "~/../assets/css/"
+  }
+],
+"liveSassCompile.settings.autoprefix": ["> 1%", "last 10 versions"],
+// "liveSassCompile.settings.showOutputWindow": true,
+"liveServer.settings.AdvanceCustomBrowserCmdLine": ""
 ```
 
 как будет заведен scss-файл внизу в панели VSCode появится надпись watch sass. Жмем на нее, чтобы запустить компиляцию
